@@ -1,0 +1,231 @@
+<body>
+    <div>
+      <!-- container section start -->
+      <section id="container" class="">
+    
+    
+        <header class="header dark-bg">
+          <div class="toggle-nav">
+            <div class="icon-task-l tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
+          </div>
+    
+          <!--logo start-->
+          <a href="" class="logo">E<span class="lite">Stock</span></a>
+          <!--logo end-->
+    
+          <div class="nav search-row" id="top_menu">
+            <!--  search form start -->
+            <ul class="nav top-menu">
+              <li>
+                <form class="navbar-form">
+                  <input class="form-control" placeholder="Search" type="text">
+                </form>
+              </li>
+            </ul>
+            <!--  search form end -->
+          </div>
+    
+          <div class="top-nav notification-row">
+            <!-- notificatoin dropdown start-->
+            <ul class="nav pull-right top-menu">
+    
+              <!-- task notificatoin start -->
+              <li id="task_notificatoin_bar" class="dropdown">
+                
+                
+              </li>
+              <!-- task notificatoin end -->
+              <!-- inbox notificatoin start-->
+              
+              <!-- inbox notificatoin end -->
+              <!-- alert notification start-->
+              <li id="alert_notificatoin_bar" class="dropdown">
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+    
+                                <i class="icon-bell-l"></i>
+                                <span class="badge bg-important">7</span>
+                            </a>
+                <ul class="dropdown-menu extended notification">
+                  <div class="notify-arrow notify-arrow-blue"></div>
+                  <li>
+                    <p class="blue">You have 4 new notifications</p>
+                  </li>
+                 
+                 
+             
+                  <li>
+                    <a href="#">See all notifications</a>
+                  </li>
+                </ul>
+              </li>
+              <!-- alert notification end-->
+              <!-- user login dropdown start-->
+              <li class="dropdown">
+                <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                <span class="profile-ava">
+                                    <img alt="" src="assets/menu/img/avatar1_small.jpg">
+                                </span>
+                                <span class="username">{{name}}</span>
+                                <b class="caret"></b>
+                            </a>
+                <ul class="dropdown-menu extended logout">
+                  <div class="log-arrow-up"></div>
+                  <li class="eborder-top">
+                    
+                  </li>
+                  <li>
+                  
+                  </li>
+                  <li>
+                  
+                  </li>
+                  <li>
+                  
+                  </li>
+                  <li>
+                    <a href="/login"><i class="icon_key_alt"></i> Log Out</a>
+                  </li>
+                  
+                </ul>
+              </li>
+              <!-- user login dropdown end -->
+            </ul>
+            <!-- notificatoin dropdown end-->
+          </div>
+        </header>
+        <!--header end-->
+    
+        <!--sidebar start-->
+        <aside>
+          <div id="sidebar" class="nav-collapse ">
+            <!-- sidebar menu start-->
+            <ul class="sidebar-menu">
+              <li class="active">
+                <a class="" href="">
+                              <i class="icon_house_alt"></i>
+                              <span>Dashboard</span>
+                          </a>
+              </li>
+              <li class="sub-menu">
+                    <a href="javascript:;" class="">
+                    <i class="menu-icon fa fa-laptop"></i>Parametre</a>
+             <ul class="sub">
+              <li class="nav-item" routerLinkActive ="active">
+              <a routerLink ="/categories" class="nav-link">
+              <p>Catégorie</p></a></li>
+    
+              
+              <li class="nav-item" routerLinkActive ="active">
+              <a routerLink ="/scategories" class="nav-link">
+              <p>Sous Catégorie</p></a> </li>
+    
+              
+              
+              <li class="nav-item" routerLinkActive ="active">
+              <a routerLink ="/articles" class="nav-link">
+              <p>Article</p></a></li>
+    
+              
+              <li class="nav-item" routerLinkActive ="active">
+              <a routerLink ="/clients" class="nav-link">
+              <p>Client</p></a></li>
+      
+               <li class="nav-item" routerLinkActive ="active">
+               <a routerLink ="/fournisseurs" class="nav-link">
+                <p>Fournisseur</p></a></li>
+
+                  
+            </ul>
+              </li>
+    
+           
+    
+            
+    
+            </ul>
+            <!-- sidebar menu end-->
+          </div>
+        </aside>
+        <!--sidebar end-->
+    
+        <!--main content start-->
+        <section id="main-content">
+          <section class="wrapper">
+            <!--overview start-->
+            <div class="row">
+              <div class="col-lg-12">
+                <h3 class="page-header"><i class="fa fa-laptop"></i> Dashboard</h3>
+                <ol class="breadcrumb">
+                  <li><i class="fa fa-home"></i><a href="">Home</a></li>
+                  <li><i class="fa fa-laptop"></i>Dashboard</li>
+                </ol>
+              </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                  <div class="info-box blue-bg">
+                    <i class="fa fa-cloud-download"></i>
+                    <div class="count">6.674</div>
+                    <div class="title">Download</div>
+                  </div>
+                  <!--/.info-box-->
+                </div>
+                <!--/.col-->
+      
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                  <div class="info-box brown-bg">
+                    <i class="fa fa-shopping-cart"></i>
+                    <div class="count">7.538</div>
+                    <div class="title">Purchased</div>
+                  </div>
+                  <!--/.info-box-->
+                </div>
+                <!--/.col-->
+      
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                  <div class="info-box dark-bg">
+                    <i class="fa fa-thumbs-o-up"></i>
+                    <div class="count">4.362</div>
+                    <div class="title">Order</div>
+                  </div>
+                  <!--/.info-box-->
+                </div>
+                <!--/.col-->
+      
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                  <div class="info-box green-bg">
+                    <i class="fa fa-cubes"></i>
+                    <div class="count">1.426</div>
+                    <div class="title">Stock</div>
+                  </div>
+                  <!--/.info-box-->
+                </div>
+                <!--/.col-->
+      
+              </div>
+    
+            
+                    <div class="container-fluid">
+                   
+                     <router-outlet></router-outlet>
+                    </div><!-- /.container-fluid -->
+                   
+    
+          
+    
+          </section>
+    
+          
+          
+        </section>
+       
+        <!--main content end-->
+      </section>
+    
+     
+    
+    </div>
+    
+    </body>
+    
